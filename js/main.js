@@ -23,7 +23,7 @@ function generateBirthdayWish() {
             });
     } else {
         // Display a hint or clue
-        birthdayWishResult.innerHTML = "<p>Enter the name that start with E and end with E.</p>";
+        birthdayWishResult.innerHTML = "<p>Enter the name that start with E and end with e.</p>";
     }
 }
 
@@ -32,5 +32,5 @@ function isCorrectName(inputName) {
     const lowercaseInput = inputName.toLowerCase();
 
     // Check if the lowercase input is "essie"
-    return lowercaseInput === "Essie";
+    return lowercaseInput === "essie";
 }
