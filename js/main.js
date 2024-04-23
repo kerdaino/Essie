@@ -15,7 +15,7 @@ function generateBirthdayWish() {
                 const randomWish = data[Math.floor(Math.random() * data.length)];
 
                 // Display the birthday wish result
-                birthdayWishResult.innerHTML = `<p><strong>Birthday Wish for Eseosa Ajala:</strong> ${randomWish}</p>`;
+                birthdayWishResult.innerHTML = `<p><strong>Birthday Wish for Essie:</strong> ${randomWish}</p>`;
             })
             .catch(error => {
                 console.error("Error fetching data:", error);
